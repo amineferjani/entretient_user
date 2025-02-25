@@ -17,7 +17,7 @@ public class Utilisateur {
     private Long id;
     @NotBlank(message = "Le nom ne doit pas etre null")
     private String nom;
-    @Email(message = "Erreur format Email!")
+    @Email(message = "Erreur format Email!!!!")
     @NotNull(message = "Le mail ne doit pas etre null")
     private String email;
     @Enumerated(EnumType.STRING)
